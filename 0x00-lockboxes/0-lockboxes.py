@@ -1,10 +1,9 @@
 #!/usr/bin/python3
+"""method that determines if all the boxes can be opened."""
 
 
 def canUnlockAll(boxes):
-    "method that determines if all the boxes can be opened."
-
-    '#se recorren las posiciones de las cajas que se pueden abrir'
+    """se recorren las posiciones de las cajas que se pueden abrir"""
     for j in range(len(boxes)):
         if boxes[j]:
             continue
