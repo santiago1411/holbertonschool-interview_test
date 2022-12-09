@@ -9,8 +9,6 @@ def canUnlockAll(boxes):
         if boxes[j]:
             continue
         else:
-            '#se evaluan la longitud total de las'
-            '#cajas con la longitud de las cajas abiertas'
             if (j != len(boxes) - 1):
                 return False
     return True
