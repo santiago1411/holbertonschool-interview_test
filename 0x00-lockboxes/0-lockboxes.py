@@ -15,7 +15,7 @@ def canUnlockAll(boxes):
     lista_v = [0]
     for i in lista_v:
         for j in boxes[i]:
-            if j != len(boxes) and j not in lista_v:
+            if j < len(boxes) and j not in lista_v:
                 lista_v.append(j)
         if len(lista_v) == len(boxes):
             return True
